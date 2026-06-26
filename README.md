@@ -1,7 +1,7 @@
-# Digital Wellbeing at Risk? A Behavioural Segmentation of Student Social Media Consumption in Bangladesh
+# Student Media Usage and Mental Wellbeing Analysis
 
 **Jarin Binta Yeasin**
-Department of Mass Communication and Journalism, University of Dhaka
+| Department of Mass Communication and Journalism | University of Dhaka
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://python.org)
 [![pandas](https://img.shields.io/badge/pandas-2.x-150458?logo=pandas)](https://pandas.pydata.org)
@@ -320,8 +320,8 @@ Relevant literature: Twenge & Campbell (2019), Primack et al. (2017), Vannucci e
 ## Author
 
 **Jarin Binta Yeasin**
-Final-year undergraduate student, Department of Mass Communication and Journalism
-University of Dhaka
+| Final-year undergraduate student, Department of Mass Communication and Journalism
+| University of Dhaka
 
 - 📧 jarinyeasin@mail.com
 - 🔗 [LinkedIn](www.linkedin.com/in/jarin-binta-yeasin-b61b88278)
