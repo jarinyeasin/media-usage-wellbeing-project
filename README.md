@@ -17,7 +17,7 @@ Department of Mass Communication and Journalism, University of Dhaka
 
 This study presents a mixed-methods computational analysis of a primary survey (n=56) administered to Bangladeshi students across disciplines in February 2026. Using an 11-item 7-point Likert instrument, I measured dimensions including social comparison, emotional drain, sleep disruption, concentration difficulty, and overall perceived impact on mental wellbeing.
 
-Applied four statistical tests — Pearson correlation, Welch's independent-samples t-test, one-way ANOVA, and multiple linear regression — alongside two unsupervised machine learning techniques: k-means clustering (k=3) and Principal Component Analysis (PCA). The regression model (R²=0.518) identified **sleep disruption** as the dominant predictor of wellbeing impact (β=0.449), significantly outweighing raw screentime (β=−0.045). Clustering revealed three behavioural profiles — Low-Impact Users (32%), Moderate Impact (43%), and High-Risk Users (25%) — with the High-Risk segment distinguished by markedly elevated social comparison scores (mean=5.9/7). These findings carry implications for digital literacy education and student mental health policy in resource-constrained university settings.
+Applied 4 statistical tests — Pearson correlation, Welch's independent-samples t-test, one-way ANOVA, and multiple linear regression, alongside two unsupervised machine learning techniques: k-means clustering (k=3) and Principal Component Analysis (PCA). The regression model (R²=0.518) identified **sleep disruption** as the dominant predictor of wellbeing impact (β=0.449), significantly outweighing raw screentime (β=−0.045). Clustering revealed 3 behavioural profiles — Low-Impact Users (32%), Moderate Impact (43%), and High-Risk Users (25%) — with the High-Risk segment distinguished by markedly elevated social comparison scores (mean=5.9/7). These findings carry implications for digital literacy education and student mental health policy in resource-constrained university settings.
 
 ---
 
@@ -40,9 +40,9 @@ Applied four statistical tests — Pearson correlation, Welch's independent-samp
 
 ## Motivation
 
-University students — navigating academic pressure, identity crisis, and economic uncertainty simultaneously — represent a particularly vulnerable demographic for social media's psychological effects. Most existing research on social media and mental health originates from Western populations, limiting the generalisability of findings to South Asian contexts.
+University students navigating academic pressure, identity crisis, and economic uncertainty simultaneously represent a particularly vulnerable demographic for social media's psychological effects. Most existing research on social media and mental health originates from Western populations, limiting the generalisability of findings to South Asian contexts.
 
-This project addresses that gap through a small data-driven attempt, combining primary survey design with a full computational analysis pipeline — from raw data cleaning through unsupervised behavioural profiling. It is also a demonstration of applied data science on a real-world social science problem, built entirely with open-source Python tools.
+This project addresses that gap through a small data-driven attempt, combining primary survey design with a full computational analysis pipeline from raw data cleaning through unsupervised behavioural profiling. It is also a demonstration of applied data science on a real-world social science problem, built entirely with open-source Python tools.
 
 ---
 
@@ -94,7 +94,7 @@ This project addresses that gap through a small data-driven attempt, combining p
 
 ## Methodology
 
-The analysis pipeline consists of five sequential stages, each implemented in a dedicated Python script.
+The analysis pipeline consists of 5 sequential stages, each implemented in a dedicated Python script.
 
 ### 1. Data Cleaning & Preprocessing (`01_data_cleaning.py`)
 
@@ -133,7 +133,7 @@ Eight publication-quality PNG figures generated via matplotlib: demographics, Li
 
 ### 5. Interactive Dashboard (`05_html_dashboard.py`)
 
-Fully self-contained HTML report with all charts embedded as base64-encoded PNG images. Zero external dependencies — opens in any browser, works completely offline.
+Fully self-contained HTML report with all charts embedded as base64-encoded PNG images. Zero external dependencies, opens in any browser, works completely offline.
 
 ---
 
@@ -186,13 +186,13 @@ Fully self-contained HTML report with all charts embedded as base64-encoded PNG 
 ## Key Findings
 
 **1. Sleep, not screentime, drives wellbeing outcomes.**
-Raw daily screentime contributes almost nothing to wellbeing impact (β=−0.045) once behavioural mediators are controlled. Sleep disruption (β=0.449) and concentration difficulty (β=0.250) are the primary mechanisms through which social media harms student wellbeing. This aligns with "displacement theory" in media psychology — the problem is not time spent but vital functions displaced.
+Raw daily screentime contributes almost nothing to wellbeing impact (β=−0.045) once behavioural mediators are controlled. Sleep disruption (β=0.449) and concentration difficulty (β=0.250) are the primary mechanisms through which social media harms student wellbeing. This aligns with "displacement theory" in media psychology, the problem is not time spent but vital functions displaced.
 
 **2. One in four students is at high psychological risk.**
-The High-Risk cluster (25%) scores near the ceiling on nearly every harm dimension and is uniquely characterised by elevated social comparison — suggesting that upward social comparison on social media is a distinct risk factor, not merely a correlate of heavy use.
+The High-Risk cluster (25%) scores near the ceiling on nearly every harm dimension and is uniquely characterised by elevated social comparison, suggesting that upward social comparison on social media is a distinct risk factor, not merely a correlate of heavy use.
 
 **3. Statistical non-significance is itself a finding.**
-The absence of a significant gender difference (p=0.761) and the non-significant ANOVA (p=0.298) are meaningful at this sample size. They suggest that psychological harm from social media is broadly distributed across gender and usage levels in this population — a pattern that warrants investigation with a larger sample.
+The absence of a significant gender difference (p=0.761) and the non-significant ANOVA (p=0.298) are meaningful at this sample size. They suggest that psychological harm from social media is broadly distributed across gender and usage levels in this population, a pattern that warrants investigation with a larger sample.
 
 **4. Concentration impairment is the most prevalent single symptom.**
 Q4 (difficulty concentrating after media use) has the highest mean of all 11 items (5.11/7), above even overall wellbeing impact (5.04/7). This has direct implications for academic performance and points to attention as the primary resource depleted by social media use.
@@ -300,7 +300,7 @@ python 05_html_dashboard.py
 - **Sample size (n=56):** Reduces statistical power significantly. The ANOVA and Pearson correlation trends are visible and directionally consistent with the literature but fall below the p<0.05 threshold. A minimum of n=150–200 would substantially improve reliability.
 - **Convenience sampling:** Respondents were recruited through the author's networks, introducing selection bias toward science-stream urban students. The findings are not generalisable to rural or non-university populations.
 - **Self-reported screentime:** Device-reported screentime is more accurate. Self-reports are known to underestimate actual usage by approximately 20–30% in the literature.
-- **Cross-sectional design:** No causal inference is possible. The observed relationships between sleep disruption and wellbeing may reflect reverse causality — anxious students both use media more and sleep worse.
+- **Cross-sectional design:** No causal inference is possible. The observed relationships between sleep disruption and wellbeing may reflect reverse causality, anxious students both use media more and sleep worse.
 
 ---
 
@@ -329,10 +329,5 @@ University of Dhaka
 
 ---
 
-## License
-The survey instrument and derived dataset are shared for academic and non-commercial use only.
-
----
-
-*This project is an experiment for a portfolio in data science and computational social science.
+*The survey instrument and derived dataset are shared for academic and non-commercial use only. This project is an experiment for a portfolio in data science and computational social science.
 Feedback, collaboration proposals, and methodological critiques are welcome via GitHub Issues or email.*
