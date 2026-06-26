@@ -8,9 +8,8 @@ Department of Mass Communication and Journalism, University of Dhaka
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.x-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 [![scipy](https://img.shields.io/badge/scipy-1.x-8CAAE6)](https://scipy.org)
 [![matplotlib](https://img.shields.io/badge/matplotlib-3.x-11557c)](https://matplotlib.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **🔗 [View Live Dashboard](https://yourusername.github.io/media-wellbeing-bangladesh)**
+> **🔗 [View Live Dashboard](https://jarinyeasin.github.io/media-usage-wellbeing-project/)**
 
 ---
 
@@ -260,8 +259,8 @@ python -m pip install pandas openpyxl numpy scipy scikit-learn matplotlib
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/media-wellbeing-bangladesh.git
-cd media-wellbeing-bangladesh
+git clone https://github.com/jarinyeasin/media-usage-wellbeing-project.git
+cd media-usage-wellbeing-project
 
 # 2. Place your survey Excel file in data/ and rename it
 #    data/survey_raw.xlsx
@@ -325,17 +324,15 @@ Final-year undergraduate student, Department of Mass Communication and Journalis
 University of Dhaka
 
 - 📧 jarinyeasin@mail.com
-- 🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
-- 🐙 [GitHub](https://github.com/yourusername)
+- 🔗 [LinkedIn](www.linkedin.com/in/jarin-binta-yeasin-b61b88278)
+- 🐙 [GitHub](https://github.com/jarinyeasin)
 
 ---
 
 ## License
-
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
 The survey instrument and derived dataset are shared for academic and non-commercial use only.
 
 ---
 
-*This project is part of a portfolio in data science and computational social science.
+*This project is an experiment for a portfolio in data science and computational social science.
 Feedback, collaboration proposals, and methodological critiques are welcome via GitHub Issues or email.*
