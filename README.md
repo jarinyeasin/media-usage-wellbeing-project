@@ -323,7 +323,7 @@ Relevant literature: Twenge & Campbell (2019), Primack et al. (2017), Vannucci e
 | Final-year undergraduate student, Department of Mass Communication and Journalism
 | University of Dhaka
 
-- 📧 jarinyeasin@mail.com
+- 📧 jarinyeasin@gmail.com
 - 🔗 [LinkedIn](www.linkedin.com/in/jarin-binta-yeasin-b61b88278)
 - 🐙 [GitHub](https://github.com/jarinyeasin)
 
